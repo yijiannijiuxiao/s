@@ -2,7 +2,6 @@ package com.example.day02demo1;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -16,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
-        Log.e("qwertyu","-----------");
     }
 
     private void initView() {
